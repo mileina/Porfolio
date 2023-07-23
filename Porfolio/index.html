@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body class="tt-transition">
+
+    <!-- Début de la transition de page -->
+    <div id="page-transition" id="accueil">
+  <div class="ptr-overlay"></div>
+  <div class="ptr-preloader">
+    <div class="ptr-prel-content">
+      <img src="assets/img/Mil.gif" class="ptr-prel-image tt-logo-light" alt="Logo">
+    </div> <!-- /.ptr-prel-content -->
+  </div> <!-- /.ptr-preloader -->
+</div>
+<!-- Fin de la transition de page -->
+
+  <!-- Début du fond bruité -->
+  <div class="bg-noise">
+  </div>
+  <!-- Fin du fond bruité -->
+
+  <div id="scroll-container"> 
+    <div class="tt-header-col">
+
+      <!-- Début du logo -->
+      <div class="tt-logo"> 
+        <a href="index.html">
+          <img src="assets/img/Mil.gif" class="tt-logo-light magnetic-item" alt="Logo"> 
+        </a>
+      </div>
+      <!-- Fin du logo -->
+
+    </div> <!-- /.tt-header-col -->
+
+    <div class="tt-header-col">
+
+      <div class="tt-header-col">
+
+        <!-- Début du menu -->
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#skills">Hey</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- Fin du menu -->
+
+    </div> <!-- /.tt-header-col -->
+  </div> <!-- scroll-container -->
+
+  <div class="page-header-inner tt-wrap">
+  <!-- Début de l'image d'en-tête de la page -->
+  <div class="ph-image">
+    <div class="ph-image-inner">
+      <img src="assets/img/demo-ph.jpg" alt="Image">
+    </div>
+  </div>
+  <!-- Fin de l'image d'en-tête de la page -->
+  
+
+  <!-- Début de la légende de l'en-tête de la page -->
+  <div class="ph-caption ph-center">
+    <h1 class="ph-caption-title ph-appear max-width-1000">Mil</h1>
+    <div class="ph-caption-title-ghost ph-appear">Site Web</div>
+    <div class="ph-caption-subtitle ph-appear max-width-650">Mil, développeuse web junior, <br> <em>Portfolio</em>. <br> Conçu et réalisé avec soin pour mettre en valeur mes compétences.</div>
+  </div>
+</div> <!-- /.page-header-inner -->
+  <!-- Fin de la légende de l'en-tête de la page -->  
+
+  <!-- Début du cercle de défilement vers le bas -->
+  <a href="#page-content" class="scroll-down-circle" data-offset="30">
+    <div class="sdc-inner ph-appear">
+      <div class="sdc-icon"><i class="fas fa-chevron-down"></i></div>
+      <svg viewBox="0 0 500 500">
+        <defs>
+          <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
+        </defs>
+        <text dy="30" style="font-size: 40px;">
+          <textPath xlink:href="#textcircle"> Bonjour - hi - สวัสดี - 你好 - </textPath>
+        </text>
+      </svg>
+    </div>
+  </a>
+  <!-- Fin du cercle de défilement vers le bas -->
+
+  <!-- Début presentation -->
+  <div class="scrollable-content" id="about">
+    <div class="content-inner">
+    <p>Je m'appelle Pinya et j'ai suivi une formation de développeur web. 
+      <br>J'ai ensuite effectué un stage dans une entreprise spécialisée dans les outils <br> et applications de jeux vidéo en ligne streaming. 
+      <br>Je suis passionnée par l'amélioration du design web et j'ai constamment soif d'apprendre de nouvelles choses afin de vous offrir le meilleur</p>
+  </div> <!-- content-inner -->
+  </div> <!-- scrollable-content -->
+    <!-- Fin presentation -->  
+
+      <!-- Début competance -->
+      <div class="bg-competences" id="competences">
+      <h2 class="competences-title">COMPETENCES</h2>
+      <div class="competences-legend">
+        <p class="legend-text">Survolez pour voir mes compétences</p>
+        <div class="legend-colors">
+          <div class="legend-color">
+            <div class="legend-color-box level-1"></div>
+            <span class="legend-color-text">Niveau 1</span>
+          </div>
+          <div class="legend-color">
+            <div class="legend-color-box level-2"></div>
+            <span class="legend-color-text">Niveau 2</span>
+          </div>
+          <div class="legend-color">
+            <div class="legend-color-box level-3"></div>
+            <span class="legend-color-text">Niveau 3</span>
+          </div>
+          <div class="legend-color">
+            <div class="legend-color-box level-4"></div>
+            <span class="legend-color-text">Niveau 4</span>
+          </div>
+          <div class="legend-color">
+            <div class="legend-color-box level-5"></div>
+            <span class="legend-color-text">Niveau 5</span>
+          </div>
+          </div>
+      <div class="competences">
+        <div class="competence">
+          <div class="competence-icon" data-level="5" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="competence-title">HTML5</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="5" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="competence-title">CSS3</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="5" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-js"></i>
+          </div>
+          <div class="competence-title">JavaScript</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="3" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-react"></i>
+          </div>
+          <div class="competence-title">React</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="3" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-node-js"></i>
+          </div>
+          <div class="competence-title">Node.js</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="5" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-sass"></i>
+          </div>
+          <div class="competence-title">Sass</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="4" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-bootstrap"></i>
+          </div>
+          <div class="competence-title">Bootstrap</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="4" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-git"></i>
+          </div>
+          <div class="competence-title">Git</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="4" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="competence-title">design</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="2" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-angular"></i>
+          </div>
+          <div class="competence-title">Angular</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="3" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-php"></i>
+          </div>
+          <div class="competence-title">PHP</div>
+        </div>
+        <div class="competence">
+          <div class="competence-icon" data-level="4" onmouseenter="changeColor(this)" onmouseleave="resetColor(this)">
+            <i class="fab fa-wordpress"></i>
+          </div>
+          <div class="competence-title">WordPress</div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Début projet -->
+      <section class="projects" id="projets">
+      <div class="container">
+        <h2 class="projects-title">EXPLORE MES PROJETS</h2>
+        <div class="project">
+          <div class="project-thumbnail">
+            <img src="assets/img/PorfolioMil.gif" alt="Projet 1">
+          </div>
+          <div class="project-details">
+            <h3>Projet 1</h3>
+            <p><br>Le projet 1 est un projet entièrement libre où j'ai eu la possibilité de <br> concevoir et de designer mon propre portfolio. 
+              J'ai pu exprimer ma créativité en concevant une interface attrayante et moderne. J'ai utilisé <br> mes compétences en design 
+              pour créer un agencement visuel agréable, en choisissant les couleurs, les polices et les éléments graphiques appropriés.
+              Une fois le design finalisé, j'ai mis en pratique <br> mes compétences en développement pour coder l'intégralité du portfolio. 
+              J'ai utilisé les langages HTML, CSS et JavaScript pour créer une expérience utilisateur fluide et interactive. 
+              J'ai optimisé le code pour garantir une compatibilité multiplateforme et une navigation intuitive.
+              Ce projet m'a permis de démontrer mes compétences en design, ainsi que ma capacité à développer des sites web fonctionnels et esthétiques. 
+              Je suis fier du résultat final et j'espère que vous apprécierez la visite de mon portfolio.</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-thumbnail">
+            <img src="assets/img/StreamCave.jpg" alt="Projet 2">
+          </div>
+          <div class="project-details">
+            <h3>Projet 2</h3>
+            <p>Le projet 2 était un projet de stage où j'ai eu l'opportunité de concevoir entièrement le design du site web. 
+              J'ai utilisé une combinaison de langages et de technologies tels que SASS, HTML, CSS, 
+              JavaScript et React pour créer une expérience utilisateur esthétiquement attrayante et conviviale.
+              J'ai également exploré l'intégration de mon site web dans WordPress en développant un thème personnalisé. 
+              Cela m'a permis d'utiliser la puissance de WordPress pour gérer les pages et les fonctionnalités du site, 
+              tout en conservant un contrôle total sur la conception et la personnalisation de l'interface.
+              Grâce à cette approche, les utilisateurs peuvent profiter des avantages de WordPress, 
+              tels que la gestion facile du contenu et la création de pages personnalisées, tout en bénéficiant d'un design unique et sur mesure pour leur site.
+              Ce projet a été une excellente occasion de mettre en pratique mes compétences en développement web et en intégration WordPress, 
+              et j'ai été ravi de pouvoir créer un site web personnalisé pour répondre aux besoins spécifiques du client.
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-thumbnail">
+            <img src="assets/img/Canopée.jpg" alt="Projet 3">
+          </div>
+          <div class="project-details">
+            <h3>Projet 3</h3>
+            <p>Le projet 3 est en cours, et je suis actuellement en train de concevoir le site web pour l'ouverture d'une boutique de bougies. 
+              J'ai proposé deux designs différents pour le site, chacun correspondant à une approche distincte.
+              Le premier design que j'ai proposé est inspiré des tendances actuelles sur le web. Il met en avant des éléments modernes, 
+              des couleurs vives et des mises en page dynamiques, visant à attirer l'attention des utilisateurs et à créer une ambiance contemporaine.
+              Le deuxième design que j'ai proposé est axé sur la thématique "nature" de la boutique de bougies. Il met en valeur des éléments organiques, 
+              des tons terreux et une mise en page plus douce et apaisante, créant ainsi une atmosphère harmonieuse inspirée de la nature.
+              Si le projet se concrétise, ce sera ma première expérience complète de création d'un site web de A à Z. 
+              Je suis enthousiaste à l'idée de mettre en œuvre mes compétences en design et en développement pour donner vie à ce projet. 
+              De plus, cette opportunité ouvre des perspectives pour d'autres projets passionnants, 
+              car j'ai déjà été sollicité pour la création d'un site web pour l'ouverture d'un restaurant.
+              Je suis impatient de voir l'évolution de ce projet et de pouvoir contribuer à la création d'une expérience en ligne unique 
+              pour la boutique de bougies, ainsi que pour d'autres projets captivants à venir.</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-thumbnail">
+            <img src="assets/img/GITHUB.jpg" alt="Projet 4">
+          </div>
+          <div class="project-details">
+            <h3>Projet 4</h3>
+            <p>Pour le moment je n'ai pas d'autre projet spécifique. 
+              Cependant, je vous invite à accéder à mon profil GitHub où j'ai réalisé plusieurs exercices et projets que j'ai conservés. 
+              Parmi ceux-ci, vous trouverez par exemple une API pour la recherche de films et la création d'un menu de pizzas.
+              En parallèle, je suis sur le point de terminer mon stage qui a duré près d'un an. J'ai acquis de nombreuses compétences et 
+              expériences enrichissantes au cours de cette période. Maintenant, je suis impatient de pouvoir rejoindre une entreprise où 
+              je pourrai continuer à apprendre et à développer mes compétences. 
+              Mon objectif est d'élargir mon portfolio et de participer à des projets intéressants et stimulants.
+              Je suis ouvert aux nouvelles opportunités et je suis prêt à relever de nouveaux défis. Je suis convaincu que mon engagement 
+              et ma passion pour le développement me permettront de contribuer de manière significative dans un environnement professionnel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+          <!-- fin projet -->
+
+           <!-- Début skills -->
+           <section class="skills" id="skills">
+  <div class="container">
+    <h2 class="section-title">Knowledge Is Everything</h2>
+    <p class="section-subtitle">Hey</p>
+    <div class="skill">
+      <h3 class="skill-title">01.</h3>
+      <div class="skill-content">
+        <h4 class="skill-subtitle">Conception Design</h4>
+        <p class="skill-description">Grâce à mes compétences en conception design, j'ai la capacité d'analyser les tendances actuelles du web 
+          et de répondre aux exigences spécifiques de mes clients. Que vous recherchiez un design moderne et innovant ou que vous souhaitiez rester fidèle 
+          à votre vision, je suis en mesure de créer des designs qui satisferont tout le monde. Mon objectif est de combiner les meilleures pratiques 
+          du design avec les besoins uniques de chaque projet, afin de fournir des résultats esthétiques et fonctionnels. Je suis passionné 
+          par la création d'expériences visuelles captivantes et je suis déterminé à offrir des solutions qui répondent aux attentes de mes clients.</p>
+      </div>
+    </div>
+    <div class="skill">
+      <h3 class="skill-title">02.</h3>
+      <div class="skill-content">
+        <h4 class="skill-subtitle">Développement Front-end & Back-end</h4>
+        <p class="skill-description">Que ce soit pour la création d'un site web, d'une application ou d'une boutique en ligne, 
+            je peux m'occuper du développement tant du côté front-end (HTML, CSS, JavaScript) que du côté back-end (PHP, React, etc.)</p>
+      </div>
+    </div>
+    <div class="skill">
+      <h3 class="skill-title">03.</h3>
+      <div class="skill-content">
+        <h4 class="skill-subtitle">Apprentissage</h4>
+        <p class="skill-description">Je suis passionné par l'apprentissage continu et je suis toujours prêt à acquérir de nouvelles compétences. 
+          Si vous avez des besoins spécifiques ou des technologies que vous souhaitez que j'approfondisse, je suis prêt à relever le défi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Fin skills -->
+
+ <section class="contact-container" id="contact">
+  <h2>Contactez-moi</h2>
+  <form action="send_email.php" method="post">
+    <div class="form-group">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit">Envoyer</button>
+    </div>
+  </form>
+</section>
+<div class="paper-planes"></div>
+
+           <!-- Liens vers les réseaux sociaux -->
+<div class="social-media">
+  <a href="https://www.linkedin.com/in/pinya-meas-a3b70a133/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://github.com/mileina" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://twitter.com/Mileina_" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-twitter"></i>
+  </a>
+</div>
+           <!-- Fin reseaux -->
+
+  <script src="script.js"></script>
+</body>
+</html>
